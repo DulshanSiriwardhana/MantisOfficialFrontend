@@ -1,0 +1,41 @@
+.messageboxcontainer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 100px;
+}
+.messagebox{
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-radius: 20px;
+    width: 30%;
+    min-width: 400px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messageboxsection{
+    width: 300px;
+}
+.messageboxsection p{
+    color: rgb(212, 196, 255);
+    margin-top: 10px;
+}
+.messageboxsection input{
+    width: 100%;
+    border-radius: 5px;
+}
+.messageboxsection button{
+    margin-top: 10px;
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3586ff;
+    color: white;
+}
+.sendmessage{
+    height: 100px;
+}

@@ -1,0 +1,12 @@
+.aboutdpcontainer{
+    display: flex;
+    justify-content: center;
+}
+.aboutimage{
+    width: 100%;
+}
+@media screen and(min-width:1000px){
+    .aboutimage{
+        width: 500px;
+    }
+}

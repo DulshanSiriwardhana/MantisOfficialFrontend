@@ -1,0 +1,295 @@
+
+.aboutpagetoptext{
+    border-style: groove;
+    border-color: aliceblue;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 100%;
+    align-items: center;
+}
+.aboutpagetopimage{
+    border-style: groove;
+    border-color: aliceblue;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+}
+.aboutpagetopabout{
+    border-style: groove;
+    border-color: aliceblue;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 60%;
+}
+.skilllistcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.aboutpagetext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutfindmeonicons{
+    gap: 0px;
+    display: flex;
+    justify-content:space-around;
+}
+.aboutfindmeonicons a{
+    display: flex;
+    flex-direction: row;
+}
+.aboutfindmeonicons a img{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbottomcontainer{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.aboutbottom{
+    border-color: white;
+    border-width: 1px;
+    border-style: groove;
+    width: 240px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:1000px){
+    .aboutpagetop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutpagecontainer{
+        color: white;
+        margin-top: 40px;
+        height: 1500px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .aboutpagetopimage{
+        border-style: groove;
+        border-color: aliceblue;
+        border-width: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+    }
+    .aboutpagecontainer{
+        color: white;
+        margin-top: 40px;
+        height: 1500px;
+    }
+    .aboutpagetop{
+        display: flex;
+        width: 100%;
+        height: 820px;
+        justify-content: space-around;
+    }
+    .skillrow1{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .skillrow2{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .skillrow3{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .skillrow4{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .aboutfindmeonicons{
+        gap: 0px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .aboutfindmeonicons a{
+        display: flex;
+        flex-direction: row;
+    }
+    .aboutfindmeonicons a img{
+        width: 240px;
+        height: 100px;
+    }
+    .aboutbottomcontainer{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .aboutbottom{
+        border-color: white;
+        border-width: 1px;
+        border-style: groove;
+        width: 98%;
+        min-width: 900px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+.r11{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(0, 248, 116);
+    border-radius: 10px;
+}
+.r12{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(0, 225, 255);
+    border-radius: 10px;
+}
+.r13{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(35, 37, 40);
+    border-radius: 10px;
+}
+.r14{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(255, 0, 238);
+    border-radius: 10px;
+}
+.r21{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(255, 144, 47);
+    border-radius: 10px;
+}
+.r22{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(131, 138, 232);
+    border-radius: 10px;
+}
+.r23{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(88, 65, 192);
+    border-radius: 10px;
+}
+.r24{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(157, 0, 0);
+    border-radius: 10px;
+}
+.r31{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(142, 60, 136);
+    border-radius: 10px;
+}
+.r32{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(66, 21, 101);
+    border-radius: 10px;
+}
+.r33{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(243, 38, 38);
+    border-radius: 10px;
+}
+.r34{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(0, 45, 194);
+    border-radius: 10px;
+}
+.r41{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(47, 255, 0);
+    border-radius: 10px;
+}
+.r42{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(0, 72, 105);
+    border-radius: 10px;
+}
+.r43{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(129, 154, 255);
+    border-radius: 10px;
+}
+.r44{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(122, 0, 138);
+    border-radius: 10px;
+}

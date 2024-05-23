@@ -1,0 +1,38 @@
+.articlecontainer{
+    color: white;
+    align-items: center;
+    border-color: aliceblue;
+    border-width: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: groove;
+    width: 80%;
+    max-width: 100%;
+    margin-bottom: 200px;
+    box-shadow: 1px 1px 10px 1px white;
+}
+.articlecovercontainer{
+    margin: 10px;
+}
+.articlecover{
+    max-width: 100%;
+}
+.articledescription{
+    width: 80%;
+}
+.articlevideocontainer{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.articlevideo{
+    max-width: 80%;
+}
+.articlegitlink{
+    margin: 10px;
+}
+.articlegitlink a{
+    color: white;
+    text-decoration: none;
+}
