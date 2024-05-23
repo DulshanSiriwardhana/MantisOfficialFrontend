@@ -10,7 +10,7 @@ const ArticlePage =()=>{
     },[]);
 
     const getArticles =async()=>{
-        const res = await axios.get('http://localhost:4000/articles/');
+        const res = await axios.get('https://mantisofficialbackend.onrender.com/articles/');
         setArticles(res);
     }
     return(
