@@ -9,8 +9,12 @@ const Home = () =>{
         <div className='homecontainer'>
             <div className='hometop'>
                 <div className='homeleft'>
-                    <Nameanimation/>
-                    <Descriptionanimation/>
+                    <div className='nameanimation'>
+                        <Nameanimation/>
+                    </div>
+                    <div className='description'>
+                        <Descriptionanimation/>
+                    </div>
                 </div>
                 <div className='homeright'>
                     <Dp/>
