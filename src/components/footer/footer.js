@@ -30,8 +30,8 @@ const Footer =()=>{
                 <ul className="menu">
                 <li className="menu__item"><a className="menu__link" href="/">Home</a></li>
                 <li className="menu__item"><a className="menu__link" href="/about">About</a></li>
-                <li className="menu__item"><a className="menu__link" href="/services">Services</a></li>
-                <li className="menu__item"><a className="menu__link" href="/team">Team</a></li>
+                <li className="menu__item"><a className="menu__link" href="/articles">Projects</a></li>
+                <li className="menu__item"><a className="menu__link" href="https://drive.google.com/file/d/1tNeNVtMcMhe7v_octmuAJeckFEqMamcy/view?usp=sharing">CV</a></li>
                 <li className="menu__item"><a className="menu__link" href="/contact">Contact</a></li>
 
                 </ul>
