@@ -7,6 +7,7 @@ const Descriptionanimation =()=>{
     return(
         <div className="descriptioncontainer">
             <h1>
+            <p>Full-Stack web developer</p>
             <span> As a highly driven and enthusiastic IT professional, I seek an internship
  opportunity within a reputable organization. My dedication to personal and
  professional growth fuels my ambition to gain practical experience. I thrive on
