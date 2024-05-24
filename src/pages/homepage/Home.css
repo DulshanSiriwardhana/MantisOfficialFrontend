@@ -3,53 +3,47 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
-@media screen and (min-width:500px){
+@media screen and (min-width:800px){
     .hometop{
         color: white;
         display: flex;
-        padding: 100px;
         justify-content:space-around;
     }
     .homeleft{
         flex: 1;
     }
     .homeright{
-        flex: 1;
-    }
-}
-@media screen and (max-width:500px){
-    .hometop{
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content:space-around;
-        margin-left: 0%;
-        height: 1800px;
-    }
-    .homeleft{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0px;
-    }
-    .nameanimation{
-        margin-top: -1480px;
         flex: 1;
     }
     .description{
-        margin-top: -180px;
-        flex: 1;
+        margin-bottom: 120px;
     }
-    .homeright{
+    .nameanimation{
+    }
+}
+@media screen and (max-width:800px){
+    .hometop{
+        color: white;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .homeleft{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: -30%;
-        margin-top: -4200px;
-        width: 240px;
+    }
+    .homeright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description{
+        margin-bottom: 120px;
+    }
+    .nameanimation{
     }
 }
