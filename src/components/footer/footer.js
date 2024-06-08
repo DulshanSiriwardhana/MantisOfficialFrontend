@@ -31,7 +31,7 @@ const Footer =()=>{
                 <li className="menu__item"><a className="menu__link" href="/">Home</a></li>
                 <li className="menu__item"><a className="menu__link" href="/about">About</a></li>
                 <li className="menu__item"><a className="menu__link" href="/articles">Projects</a></li>
-                <li className="menu__item"><a className="menu__link" href="https://drive.google.com/file/d/1tNeNVtMcMhe7v_octmuAJeckFEqMamcy/view?usp=sharing">CV</a></li>
+                <li className="menu__item"><a className="menu__link" href="https://drive.google.com/file/d/1x6IbrGWE5qMCXJTUfxwhhYgEZW1uydz9/view?usp=sharing">CV</a></li>
                 <li className="menu__item"><a className="menu__link" href="/contact">Contact</a></li>
 
                 </ul>
