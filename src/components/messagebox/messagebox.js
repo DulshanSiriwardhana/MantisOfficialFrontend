@@ -14,7 +14,7 @@ const Messagebox =()=>{
         if(email && message){
             console.log(email);
             console.log(message);
-            const res = await axios.post('https://mantisofficialbackend.onrender.com/messages/', {
+            const res = await axios.post(`${process.env.REACT_APP_SERVER}messages/`, {
                 email,
                 message
             });

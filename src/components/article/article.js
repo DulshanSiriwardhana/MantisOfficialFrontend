@@ -14,7 +14,7 @@ const Article =(props)=>{
     },[])
 
     const getArticle =async()=>{
-        await axios.get(`https://mantisofficialbackend.onrender.com/articles/${articleId}`)
+        await axios.get(`${process.env.REACT_APP_SERVER}articles/${articleId}`)
         .then((response)=>{
             setArticle(response.data);
             setArticleCover(response.data.article.cover)
